@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+        <a class="navbar-brand" href="#"><i class="fa-brands fa-phoenix-framework"> fa-lg rotate-vert-center"
+                style="margin-right: 5px;"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/']"><i class="fa-solid fa-briefcase fa-lg"
+                            style="margin-right: 5px;"></i>Work
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/about']"><i class="fas fa-chart-bar fa-lg"
+                            style="margin-right: 5px;"></i>About
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/contact']"><i class="fas fa-clipboard fa-lg"
+                            style="margin-right: 5px;"></i>Contact
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

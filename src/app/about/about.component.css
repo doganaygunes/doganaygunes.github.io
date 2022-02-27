@@ -1,0 +1,12 @@
+.firstheader {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.image {
+   border: 5px solid #555;
+   border-radius: 2rem;  
+   width: 350px; 
+   margin-top: 2em;  
+}
